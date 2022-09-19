@@ -1,0 +1,146 @@
+{
+  "customers": 4,
+  "suppliers": [
+    {
+      "id": 0,
+      "deliveries": [
+        {
+          "id": 2,
+          "pallets": 20
+        },
+        {
+          "id": 0,
+          "pallets": 18
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "deliveries": [
+        {
+          "id": 1,
+          "pallets": 14
+        },
+        {
+          "id": 3,
+          "pallets": 19
+        }
+      ]
+    }
+  ],
+  "crossdocking_center": {
+    "in_doors": [
+      {
+        "id": 0,
+        "capacity": 26
+      },
+      {
+        "id": 1,
+        "capacity": 26
+      },
+      {
+        "id": 2,
+        "capacity": 26
+      }
+    ],
+    "out_doors": [
+      {
+        "id": 0,
+        "capacity": 26
+      },
+      {
+        "id": 1,
+        "capacity": 26
+      },
+      {
+        "id": 2,
+        "capacity": 26
+      },
+      {
+        "id": 3,
+        "capacity": 26
+      },
+      {
+        "id": 4,
+        "capacity": 26
+      }
+    ],
+    "door_distances": [
+      {
+        "in_door": 0,
+        "out_door": 0,
+        "distance": 8
+      },
+      {
+        "in_door": 0,
+        "out_door": 1,
+        "distance": 9
+      },
+      {
+        "in_door": 0,
+        "out_door": 2,
+        "distance": 10
+      },
+      {
+        "in_door": 0,
+        "out_door": 3,
+        "distance": 11
+      },
+      {
+        "in_door": 0,
+        "out_door": 4,
+        "distance": 12
+      },
+      {
+        "in_door": 1,
+        "out_door": 0,
+        "distance": 9
+      },
+      {
+        "in_door": 1,
+        "out_door": 1,
+        "distance": 8
+      },
+      {
+        "in_door": 1,
+        "out_door": 2,
+        "distance": 9
+      },
+      {
+        "in_door": 1,
+        "out_door": 3,
+        "distance": 10
+      },
+      {
+        "in_door": 1,
+        "out_door": 4,
+        "distance": 11
+      },
+      {
+        "in_door": 2,
+        "out_door": 0,
+        "distance": 10
+      },
+      {
+        "in_door": 2,
+        "out_door": 1,
+        "distance": 9
+      },
+      {
+        "in_door": 2,
+        "out_door": 2,
+        "distance": 8
+      },
+      {
+        "in_door": 2,
+        "out_door": 3,
+        "distance": 9
+      },
+      {
+        "in_door": 2,
+        "out_door": 4,
+        "distance": 10
+      }
+    ]
+  }
+}

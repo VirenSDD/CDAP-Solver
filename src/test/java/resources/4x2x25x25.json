@@ -1,0 +1,85 @@
+{
+  "customers": 4,
+  "suppliers": [
+    {
+      "id": 0,
+      "deliveries": [
+        {
+          "id": 2,
+          "pallets": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "deliveries": [
+        {
+          "id": 3,
+          "pallets": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "deliveries": [
+        {
+          "id": 1,
+          "pallets": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "deliveries": [
+        {
+          "id": 0,
+          "pallets": 2
+        }
+      ]
+    }
+  ],
+  "crossdocking_center": {
+    "in_doors": [
+      {
+        "id": 0,
+        "capacity": 6
+      },
+      {
+        "id": 1,
+        "capacity": 6
+      }
+    ],
+    "out_doors": [
+      {
+        "id": 0,
+        "capacity": 6
+      },
+      {
+        "id": 1,
+        "capacity": 6
+      }
+    ],
+    "door_distances": [
+      {
+        "in_door": 0,
+        "out_door": 0,
+        "distance": 8
+      },
+      {
+        "in_door": 0,
+        "out_door": 1,
+        "distance": 9
+      },
+      {
+        "in_door": 1,
+        "out_door": 0,
+        "distance": 9
+      },
+      {
+        "in_door": 1,
+        "out_door": 1,
+        "distance": 8
+      }
+    ]
+  }
+}
